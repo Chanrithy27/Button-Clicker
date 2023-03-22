@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-links">
+                <h1 class="title">Dojonary</h1>
+                <input type="textarea" col="20" class="searchBar" placeholder="Search">
+                <input type="button" class="loginButton" value="Login" onclick="changeText(this)">
+            </div>  
+        </nav>
+        <!-- Main Content -->
+        <main>
+            <div class="row">
+                <div class="col">
+                    <div class="box">
+                        <div class="box-row">
+                            <div class="box-col">
+                                <h2>ninja</h2>
+                                <p>noun</p>
+                                <p>Plural: ninjas</p>
+                                <input type="button" class="likeBtn" value="13 likes" onclick="message()">
+                            </div>
+                            <div class="box-desc">
+                                <p>A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-row">
+                            <div class="box-col">
+                                <h2>ninja</h2>
+                                <p>noun</p>
+                                <p>Plural: ninjas</p>
+                                <input type="button" class="likeBtn" value="37 likes">
+                            </div>
+                            <div class="box-desc">
+                                <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <div class="box-right">
+                        <p>Dojonary is <br>
+                            defined by <strong>YOU</strong></p>
+                        <input type="button" class="def-box" value="Add Definition" onclick="hide(this)">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
